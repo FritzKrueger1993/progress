@@ -59,6 +59,9 @@ function draw() {
   text(nfc(prog,7), midX + barX *0.5 , midY + 46);
   text(displayWidth,midX,10);
   text(displayHeight,midX,40);
+  text(windowWidth,midX,70);
+  text(windowHeight,midX,100);
+  
   
 }
 
