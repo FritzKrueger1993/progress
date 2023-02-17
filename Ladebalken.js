@@ -31,7 +31,7 @@ function setup() {
   finalDate = new Date(2023,3,22);
   startDate = new Date(2023,1,0);
   background(3, 1, 10, 255);
-  windowResized();
+  //windowResized();
 }
 
 
