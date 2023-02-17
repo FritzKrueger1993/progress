@@ -57,6 +57,7 @@ function draw() {
   textAlign(RIGHT);
   textSize(20);
   text(nfc(prog,7), midX + barX *0.5 , midY + 46);
+  windowResized();
 
 /*  
   fill(255);
