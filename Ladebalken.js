@@ -47,7 +47,7 @@ function draw() {
   noStroke();
   fill(0,255,0,255);
   rect(midX - progBarX * 0.5, midY - progBarY * 0.5, progBarX * prog * 0.01, progBarY, 14); 
-  textSize(36);
+  textSize(50);
   noStroke();
   fill(255);
   textFont(fontUsed);
