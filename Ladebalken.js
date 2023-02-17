@@ -31,7 +31,6 @@ function setup() {
   finalDate = new Date(2023,3,22);
   startDate = new Date(2023,1,0);
   background(3, 1, 10, 255);
-  //windowResized();
 }
 
 
@@ -58,12 +57,6 @@ function draw() {
   textAlign(RIGHT);
   textSize(20);
   text(nfc(prog,7), midX + barX *0.5 , midY + 46);
-  
-
-/*  
-  fill(255);
-  ellipse(midX,midY,5,5);
-*/
   
 }
 
