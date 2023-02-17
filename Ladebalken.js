@@ -21,7 +21,7 @@ function preload() {
 
 function setup() {
   frameRate(60);
-  createCanvas(Width-compSize, Height-compSize);
+  createCanvas(windowWidth-compSize, windowHeight-compSize);
   midX = width * 0.5;
   midY = height * 0.5;
   barX = width * 0.9;
