@@ -57,7 +57,7 @@ function draw() {
   textAlign(RIGHT);
   textSize(20);
   text(nfc(prog,7), midX + barX *0.5 , midY + 46);
-  text(displayWidth,30,10);
+  text(windowWidth,30,10);
   text(displayHeight,30,40);
   
 }
