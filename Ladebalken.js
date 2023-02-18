@@ -48,7 +48,12 @@ function draw() {
   noStroke();
   fill(0,255,0,255);
   rect(midX - progBarX * 0.5, midY - progBarY * 0.5, progBarX * prog * 0.01, progBarY, 14); 
-  textSize(36);
+  if (windowWidth <= 500) {
+    textSize(20);
+  }
+  else {
+    textSize(36);
+  }
   noStroke();
   fill(255);
   textFont(fontUsed);
@@ -58,10 +63,6 @@ function draw() {
   textAlign(RIGHT);
   textSize(20);
   text(nfc(prog,7), midX + barX *0.5 , midY + 46);
-  text(displayWidth,midX,10);
-  text(displayHeight,midX,40);
-  text(windowWidth,midX,70);
-  text(windowHeight,midX,100);
   
   
 }
