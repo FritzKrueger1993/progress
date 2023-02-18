@@ -16,12 +16,13 @@ let fontUsed;
 function preload() {
   fontUsed = loadFont('Generica.otf');
   fontCounter = loadFont('SourceCodePro-ExtraLight.ttf');
-  
+  getWindowWidth();
+  getWindowHeiht(); 
 }
 
 function setup() {
   frameRate(60);
-  createCanvas(displayWidth * pixelDensity()-compSize, displayHeight * pixelDensity()-compSize);
+  createCanvas(windowWidth-compSize, windowHeight-compSize);
   midX = width * 0.5;
   midY = height * 0.5;
   barX = width * 0.9;
