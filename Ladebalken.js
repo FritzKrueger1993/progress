@@ -36,6 +36,12 @@ function setup() {
 
 
 function draw() {
+  if (windowWidth <= 500) {
+    barY = 30;
+  }
+  else {
+   barY = 55;
+  }
   currentDate = new Date();
   difCurrent = finalDate - currentDate;
   difStart = finalDate - startDate;
@@ -61,7 +67,12 @@ function draw() {
   text('Fritz als Ausstellungstechniker', midX - barX * 0.5 , midY - 36);
   textFont(fontCounter);
   textAlign(RIGHT);
-  textSize(20);
+    if (windowWidth <= 500) {
+    textSize(15);
+  }
+  else {
+    textSize(20);
+  }
   text(nfc(prog,7), midX + barX *0.5 , midY + 46);
   
   
