@@ -72,7 +72,7 @@ function draw() {
   else {
     textSize(20);
   }
-  text(nfc(prog,7) + '%', midX + barX *0.5 , midY + 46);
+  text(nfc(prog,7) + ' %', midX + barX *0.5 , midY + 46);
   
   
 }
