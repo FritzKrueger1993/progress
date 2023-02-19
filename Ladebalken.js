@@ -16,8 +16,6 @@ let fontUsed;
 function preload() {
   fontUsed = loadFont('Generica.otf');
   fontCounter = loadFont('SourceCodePro-ExtraLight.ttf');
-  getWindowWidth();
-  getWindowHeiht(); 
 }
 
 function setup() {
@@ -42,6 +40,7 @@ function draw() {
   else {
    barY = 55;
   }
+  progBarY = barY - (barX - progBarX);
   currentDate = new Date();
   difCurrent = finalDate - currentDate;
   difStart = finalDate - startDate;
