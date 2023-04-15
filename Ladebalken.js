@@ -51,7 +51,7 @@ function draw() {
   strokeWeight(1);
   rect(midX - barX * 0.5, midY - barY * 0.5, barX, barY, 18);
   noStroke();
-  fill(255,0,80,255);
+  fill(255,0,110,255);
   rect(midX - progBarX * 0.5, midY - progBarY * 0.5, progBarX * prog * 0.01, progBarY, 14); 
   if (windowWidth <= 500) {
     textSize(20);
